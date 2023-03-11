@@ -1,1 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Spectral:wght@400;600;700&display=swap");
+
+:root {
+  --clr-primary: #800000;
+
+  --clr-text-heading: #333;
+  --clr-text-primary: #555;
+
+  --ff-primary: "Arvo", serif;
+  --ff-heading: "Spectral", serif;
+
+  --fs-400: 1.3rem;
+  --fs-600: 2.5rem;
+  --fs-700: 4rem;
+  --fs-900: 5rem;
+
+  --fs-heading: var(--fs-700);
+
+  --fw-600: 600;
+  --fw-700: 700;
+}
+
 /* TODO: em[data-size="large"] style */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-400);
+  line-height: 1.5;
+  color: var(--clr-text-primary);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--ff-heading);
+  font-weight: var(--fw-600);
+  line-height: 1;
+  color: var(--clr-text-heading);
+  margin-block: 1.2em 0.5em;
+}
+
+/* Global Styles */
+a {
+  color: var(--clr-primary);
+  text-decoration: none;
+  position: relative;
+}
+
+a:not(.nav__links)::before {
+  content: "";
+  background-color: var(--clr-primary);
+  height: 0.12em;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+
+p {
+  margin-block: 1em;
+}
+
+.container {
+  width: min(95%, 1440px);
+  margin-inline: auto;
+}
+
+/* ===== Header Styles ===== */
+
+/* Navigation Bar */
+header {
+  padding-block: 1em;
+  border-bottom: 0.1em solid #999;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-inline: auto;
+}
+
+/* ===== Header Styles ENDS ===== */
+
+/* ===== Main Section Styles ===== */
+
+/* Blog Section */
+.blog {
+  max-width: 75ch;
+}
+
+.blog__title {
+  font-size: var(--fs-heading);
+  font-weight: var(--fw-700);
+}
+
+/* Article Styles */
+.article__title {
+  font-size: var(--fs-600);
+}
+
+.article ul,
+.article ol {
+  /* TODO: Increase for Desktop version */
+  padding-inline-start: 1.2em;
+}
+
+/* ===== Main Section Styles ENDS ===== */
