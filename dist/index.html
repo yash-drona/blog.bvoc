@@ -7,7 +7,7 @@
     <title>Blog | BVOC</title>
 
     
-    <link rel="stylesheet" href="./assets/index-7ed4dd23.css">
+    <link rel="stylesheet" href="./assets/index-9a5b956b.css">
   </head>
   <body>
     <header class="container">
@@ -24,10 +24,9 @@
       <section class="blog">
         <h1 class="blog__title">What is B.Voc?</h1>
 
-        <!-- TODO: Maybe article with attribute -> data-type="list" for articles that have bullets in it. -->
         <article class="article">
           <h2 class="article__title">Introduction of B.Voc (bachelor of vocation)</h2>
-          <ul>
+          <ul role="list">
             <li>
               <p>
                 You have just cleared your board exam. What we want to talk about today is for class
@@ -55,6 +54,7 @@
               </p>
             </li>
             <li>
+              <!-- TODO: Use JavaScript to get the year count -->
               <p>
                 UGC has started B.Voc in 2013-14 many people think it is a very new degree, no it
                 has been 10 years since it was started in 2013-14 but very few students and parents
@@ -109,7 +109,7 @@
             in different fields.
           </p>
 
-          <ul>
+          <ul role="list">
             <li>
               <p>
                 First is <em>Management and Entrepreneurship</em> as BBA is a management course. If
@@ -184,7 +184,7 @@
           <h2 class="article__title">
             Why B.Voc?/How is B.Voc different from other bachelor degrees?
           </h2>
-          <ul>
+          <ul role="list">
             <li>
               <p>
                 You may be wondering why we have to do B.Voc?, There are degree for this all
@@ -265,7 +265,7 @@
           <em data-size="large">
             Education (Theory) + Experience (Practical) = Earning (Job + Stipend)
           </em>
-          <ul>
+          <ul role="list">
             <li>
               <p>
                 If you really do it, we have seen our record of students who do B.Voc, but 80% of
@@ -322,17 +322,19 @@
         </article>
 
         <!-- TODO: Add data-type="counter" to this article and all articles which have content like this article -->
-        <article class="article">
+        <article data-type="counter" class="article">
           <h2 class="article__title">B.Voc Colleges and specializations In Gujarat</h2>
+
+          <!-- TODO: Add all the content in a separate div for easy padding or margin to text and using flex for counter in pseudo-element -->
           <div class="counter">
             <h3>RK University City Campus (B.Voc college in Rajkot)</h3>
             <div>
               <h4>Address:</h4>
-              <p>New 150 ft ring road, Mota Mauva,kalawad road,Rajkot, 360004</p>
+              <p class="m-0">New 150 ft ring road, Mota Mauva,kalawad road,Rajkot, 360004</p>
             </div>
             <div>
               <h4>Specializations</h4>
-              <ol>
+              <ol role="list">
                 <li>B.Voc in management and entrepreneurship (MEPS)</li>
                 <li>B.Voc in banking and finance (BFSI)</li>
                 <li>B.Voc in information technology (IT)</li>
@@ -349,7 +351,7 @@
             </div>
             <div>
               <h4>Specializations</h4>
-              <ol>
+              <ol role="list">
                 <li>B.Voc in management and entrepreneurship (MEPS)</li>
                 <li>B.Voc in banking and finance (BFSI)</li>
                 <li>B.Voc in information technology (IT)</li>
@@ -368,7 +370,7 @@
             </div>
             <div>
               <h4>Specializations</h4>
-              <ol>
+              <ol role="list">
                 <li>B.Voc in management and entrepreneurship (MEPS)</li>
                 <li>B.Voc in banking and finance (BFSI)</li>
                 <li>B.Voc in information technology (IT)</li>
@@ -387,7 +389,7 @@
             </div>
             <div>
               <h4>Specializations</h4>
-              <ol>
+              <ol role="list">
                 <li>B.Voc in Organic farming (OF)</li>
                 <li>B.Voc in food processing (FP)</li>
               </ol>
@@ -402,7 +404,7 @@
             </div>
             <div>
               <h4>Specializations</h4>
-              <ol>
+              <ol role="list">
                 <li>B.Voc in management and entrepreneurship (MEPS)</li>
                 <li>B.Voc in banking and finance (BFSI)</li>
                 <li>B.Voc in information technology (IT)</li>
@@ -418,7 +420,7 @@
             </div>
             <div>
               <h4>Specializations</h4>
-              <ol>
+              <ol role="list">
                 <li>B.Voc in information technology (IT)</li>
                 <li>B.Voc in production technology (PT)</li>
               </ol>
@@ -433,7 +435,7 @@
             </div>
             <div>
               <h4>Specializations</h4>
-              <ol>
+              <ol role="list">
                 <li>B.Voc in management and entrepreneurship (MEPS)</li>
                 <li>B.Voc in information technology (IT)</li>
               </ol>
