@@ -23,6 +23,12 @@
   --fw-700: 700;
 }
 
+@media (min-width: 1000px) {
+  :root {
+    --fs-heading: var(--fs-900);
+  }
+}
+
 /* TODO: em[data-size="large"] style */
 
 *,
@@ -86,6 +92,14 @@ em[data-size="large"] {
 }
 
 /* ===== Header Styles ===== */
+
+.scroll-tracker {
+  position: fixed;
+  inset: 0 0 auto;
+  height: 0.5rem;
+  background-color: limegreen;
+  transform-origin: left;
+}
 
 /* Navigation Bar */
 header {
