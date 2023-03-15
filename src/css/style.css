@@ -154,7 +154,6 @@ h2.article__title {
 .article[data-type="counter"] .counter h3::before {
   counter-increment: colleges;
   content: counter(colleges) ".) ";
-  font-weight: 400;
   font-size: 0.9em;
 }
 
