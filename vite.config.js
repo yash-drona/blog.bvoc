@@ -10,9 +10,11 @@ export default defineConfig({
   build: {
     outDir,
     emptyOutDir: true,
-    input: {
-      home: resolve(root, "index.html"),
-      blog1: resolve(root, "blog1.html"),
+    rollupOptions: {
+      input: {
+        home: resolve(root, "index.html"),
+        what_is_bvoc: resolve(root, "what_is_bvoc.html"),
+      },
     },
   },
 });
