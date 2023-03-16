@@ -170,6 +170,12 @@ header {
 .hero {
   display: grid;
   place-items: center;
+  align-content: center;
+  background-image: url(../images/home-banner-1x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 300px;
 }
 
 .hero__title {
