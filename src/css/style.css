@@ -225,6 +225,10 @@ header {
   font-size: 1.2em;
 }
 
+.section__title {
+  color: #777;
+}
+
 .all-blogs .blog-card {
   background-color: var(--clr-primary-200);
 }
