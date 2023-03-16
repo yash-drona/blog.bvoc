@@ -12,7 +12,7 @@ export default defineConfig({
     emptyOutDir: true,
     input: {
       home: resolve(root, "index.html"),
-      what_is_bvoc: resolve(root, "what_is_bvoc.html"),
+      blog1: resolve(root, "blog1.html"),
     },
   },
 });
