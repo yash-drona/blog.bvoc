@@ -83,7 +83,7 @@ h4 {
 }
 
 a {
-  color: var(--clr-primary);
+  color: var(--clr-secondary-400);
   text-decoration: none;
   position: relative;
 }
@@ -141,6 +141,10 @@ img {
   justify-content: center;
 }
 
+.external-link-icon {
+  display: inline-block;
+}
+
 @media (min-width: 1000px) {
   .flex {
     flex-direction: row;
@@ -169,6 +173,10 @@ header {
   justify-content: center;
   gap: 2em;
   margin-inline: auto;
+}
+
+.nav__links {
+  color: var(--clr-primary);
 }
 
 /* ===== Header Styles ENDS ===== */
@@ -205,6 +213,7 @@ header {
   padding: 1em;
   display: grid;
   align-items: center;
+  flex: 1;
 }
 
 .sorted-blog {
