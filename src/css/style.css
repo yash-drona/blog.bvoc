@@ -266,6 +266,10 @@ header {
   max-width: 60ch;
 }
 
+.blog__title {
+  text-align: center;
+}
+
 /* Article Styles */
 .blog .article:not(:last-child) {
   margin-block-end: 3em;
