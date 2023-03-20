@@ -16,6 +16,7 @@ export default defineConfig({
         what_is_bvoc: resolve(root, "what_is_bvoc.html"),
         bvoc_it: resolve(root, "bvoc_it.html"),
         bvoc_hc: resolve(root, "bvoc_hc.html"),
+        bvoc_meps: resolve(root, "bvoc_meps.html"),
       },
     },
   },
