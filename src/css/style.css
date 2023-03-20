@@ -247,6 +247,12 @@ header {
   color: #777;
 }
 
+.all-blogs .grid {
+  display: grid;
+  gap: 1.5em;
+  grid-template-columns: 1fr;
+}
+
 .all-blogs .blog-card {
   background-color: var(--clr-primary-200);
 }
@@ -326,3 +332,10 @@ header {
 }
 
 /* ===== Main Section Styles ENDS ===== */
+
+/* ===== Breakpoints ===== */
+@media (min-width: 1000px) {
+  .all-blogs .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
