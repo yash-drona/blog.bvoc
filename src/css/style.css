@@ -286,6 +286,10 @@ header {
   padding-inline-start: 1.2em;
 }
 
+.article ul[role="list"] li > p {
+  margin-block: 0;
+}
+
 .article[data-type="counter"] {
   counter-reset: colleges;
 }
