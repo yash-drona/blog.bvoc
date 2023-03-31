@@ -46,6 +46,13 @@
   font: inherit;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 1rem;
+  }
+}
+
 body {
   font-family: var(--ff-blog-primary);
   font-size: var(--fs-400);
@@ -116,6 +123,12 @@ section {
 img {
   display: block;
   max-width: 100%;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  /* TODO: Increase for Desktop version */
+  padding-inline-start: 1.2em;
 }
 
 .mb-1-5 {
@@ -275,15 +288,14 @@ header {
   word-wrap: break-word;
 }
 
+.bvoc-full-form {
+  font-size: var(--fs-500);
+  color: var(--clr-text-heading);
+}
+
 /* Article Styles */
 .blog .article:not(:last-child) {
   margin-block-end: 3em;
-}
-
-.article ul[role="list"],
-.article ol[role="list"] {
-  /* TODO: Increase for Desktop version */
-  padding-inline-start: 1.2em;
 }
 
 .article ul[role="list"] li > p {
