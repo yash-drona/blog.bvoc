@@ -127,8 +127,12 @@ img {
 
 ul[role="list"],
 ol[role="list"] {
-  /* TODO: Increase for Desktop version */
   padding-inline-start: 1.2em;
+}
+
+ul[role="list"] li,
+ol[role="list"] li {
+  margin-block: 1em;
 }
 
 .mb-1-5 {

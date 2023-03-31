@@ -19,6 +19,7 @@ export default defineConfig({
         bvoc_bfsi: resolve(root, "bvoc_bfsi.html"),
         bvoc_hc: resolve(root, "bvoc_hc.html"),
         bvoc_df: resolve(root, "bvoc_df.html"),
+        bvoc_mjmc: resolve(root, "bvoc_mjmc.html"),
         bvoc_fp: resolve(root, "bvoc_fp.html"),
         bvoc_of: resolve(root, "bvoc_of.html"),
       },
