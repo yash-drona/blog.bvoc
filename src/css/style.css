@@ -138,6 +138,24 @@ ol[role="list"] li {
   margin-block: 1em;
 }
 
+/* Styles for tables on "What is BVoc? blog */
+table,
+th,
+td {
+  border: 2px solid #000;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  font-weight: 700;
+}
+
+th,
+td {
+  padding: 0.5em;
+}
+
 .mb-1-5 {
   margin-block: 1.5em;
 }
@@ -351,4 +369,9 @@ header {
   .all-blogs .grid {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+
+.credit-table {
+  width: 100%;
+  overflow-x: auto;
 }
