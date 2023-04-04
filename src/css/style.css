@@ -307,7 +307,8 @@ header {
 
 /* Blog Section */
 .blog {
-  max-width: 60ch;
+  max-width: 66ch;
+  margin-inline: auto;
 }
 
 .blog__title {
