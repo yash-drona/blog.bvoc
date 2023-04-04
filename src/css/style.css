@@ -192,6 +192,8 @@ td {
 /* ===== Header Styles ===== */
 
 .scroll-tracker {
+  display: none;
+
   position: fixed;
   inset: 0 0 auto;
   height: 0.5rem;
